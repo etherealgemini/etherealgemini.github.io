@@ -15,8 +15,9 @@ cd dist
 git init
 git add -A
 git commit -m 'deploy'
+git branch -m master main
 
 # 部署到 https://<USERNAME>.github.io
-git push -f git@github.com:etherealgemini/etherealgemini.github.io.git main
+git push -f git@github.com:etherealgemini/etherealgemini.github.io.git main:gh-pages
 
 cd -
