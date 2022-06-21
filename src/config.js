@@ -14,13 +14,13 @@ export default {
   /**
    * 站点标题
    */
-  title: '蝉時雨',
-  subtitle: '蝉鸣如雨 花宵道中',
+  title: '空灵双子的日记本',
+  subtitle: '所念皆星河',
 
   /**
    * Github Issues 配置
    */
-  username: 'chanshiyucx', // github 用户名
+  username: 'etherealgemini', // github 用户名
   repository: 'blog', // 文章仓库地址
   token: ['ghp_Vokc7d30ejgebjP', 'lTKwl2ScB1KMVnZ146OT2 '],
   // token: ['0ad1a0539c5b96fd18fa', 'aaafba9c7d1362a5746c'], // token 从中间任意位置拆开成两部分，避免 github 代码检测失效
@@ -32,8 +32,8 @@ export default {
     clientID: '864b1c2cbc4e4aad9ed8',
     clientSecret: '6ca16373efa03347e11a96ff92e355c5cea189bb',
     repo: 'comment', // 评论仓库地址
-    owner: 'chanshiyucx',
-    admin: ['chanshiyucx'],
+    owner: 'etherealgemini',
+    admin: ['etherealgemini'],
     distractionFreeMode: false, // 是否开始无干扰模式【背景遮罩】
     proxy: 'https://bokegitalkcors.herokuapp.com/https://github.com/login/oauth/access_token',
   },
